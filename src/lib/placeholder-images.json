@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A background image showing a tailor's workshop with fabrics and a sewing machine.",
+      "imageUrl": "https://picsum.photos/seed/tailor1/1920/1080",
+      "imageHint": "tailor workshop"
+    },
+    {
+      "id": "about-us",
+      "description": "An image of the bright and modern interior of the tailor shop.",
+      "imageUrl": "https://picsum.photos/seed/tailor2/600/400",
+      "imageHint": "tailor shop"
+    },
+    {
+      "id": "experience-1",
+      "description": "A close-up of a beautifully tailored blouse.",
+      "imageUrl": "https://picsum.photos/seed/tailor3/400/600",
+      "imageHint": "tailored blouse"
+    },
+    {
+      "id": "experience-2",
+      "description": "A full view of an elegant lehenga choli.",
+      "imageUrl": "https://picsum.photos/seed/tailor4/400/600",
+      "imageHint": "lehenga choli"
+    },
+    {
+      "id": "experience-3",
+      "description": "A stylish, custom-made dress on a mannequin.",
+      "imageUrl": "https://picsum.photos/seed/tailor5/400/600",
+      "imageHint": "custom dress"
+    },
+    {
+      "id": "experience-4",
+      "description": "Detailed embroidery on a salwar kameez.",
+      "imageUrl": "https://picsum.photos/seed/tailor6/400/600",
+      "imageHint": "salwar kameez"
+    }
+  ]
 }
