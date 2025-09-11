@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Ruler } from 'lucide-react';
+import { Scissors } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const NAV_ITEMS = [
@@ -49,8 +49,8 @@ export function Header() {
     )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <a href="#" className="flex items-center gap-2 font-headline text-2xl font-bold" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-          <Ruler className="h-6 w-6 text-primary" />
-          Sciro & Tape
+          <Scissors className="h-6 w-6 text-primary" />
+          TailoredIn
         </a>
         <nav className="hidden items-center gap-4 lg:gap-6 md:flex">
           {NAV_ITEMS.map(item => (

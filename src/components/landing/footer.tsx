@@ -1,4 +1,4 @@
-import { Ruler, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Scissors, Instagram, Facebook, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Footer() {
@@ -8,8 +8,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
              <a href="#" className="flex items-center gap-2 font-headline text-2xl font-bold mb-2">
-              <Ruler className="h-6 w-6 text-primary" />
-              Sciro & Tape
+              <Scissors className="h-6 w-6 text-primary" />
+              TailoredIn
             </a>
             <p className="text-muted-foreground">Perfect stitches, perfect you.</p>
           </div>
@@ -38,7 +38,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Sciro & Tape. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TailoredIn. All rights reserved.</p>
         </div>
       </div>
     </footer>
