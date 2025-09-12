@@ -26,7 +26,7 @@ export function HeroSection() {
           Crafting perfectly-fitted, stylish attire for the modern woman. From traditional wear to contemporary designs, we bring your vision to life.
         </p>
         <Button size="lg" className="mt-8" style={{backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))'}} asChild>
-          <a href="tel:+919876543210">Call Now</a>
+          <a href="tel:+919590187030">Call Now</a>
         </Button>
       </div>
     </section>

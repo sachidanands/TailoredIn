@@ -68,7 +68,7 @@ export function Header() {
           ))}
         </nav>
         <Button className="hidden md:flex" style={{backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))'}} asChild>
-            <a href="tel:+919876543210">Call Now</a>
+            <a href="tel:+919590187030">Call Now</a>
         </Button>
       </div>
     </header>

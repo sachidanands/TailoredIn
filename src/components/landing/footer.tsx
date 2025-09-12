@@ -16,8 +16,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="mailto:contact@tailoredin.com" className="hover:text-primary">contact@tailoredin.com</a></li>
-              <li><a href="tel:+919876543210" className="hover:text-primary">+91 98765 43210</a></li>
+              <li><a href="tel:+919590187030" className="hover:text-primary">+91 98765 43210</a></li>
               <li>123 Fashion Street, Koramangala,</li>
               <li>Bangalore, Karnataka 560034</li>
             </ul>
