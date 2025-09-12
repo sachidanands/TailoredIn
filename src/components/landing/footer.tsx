@@ -16,7 +16,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="tel:+919590187030" className="hover:text-primary">+91 98765 43210</a></li>
+              <li><a href="tel:+919590187030" className="hover:text-primary">+91 95901 87030</a></li>
               <li>Bangalore North, Karnataka 560077</li>
             </ul>
           </div>
