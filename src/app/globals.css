@@ -91,4 +91,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+  .font-price {
+    font-family: 'PT Sans', Arial, sans-serif;
+  }
 }

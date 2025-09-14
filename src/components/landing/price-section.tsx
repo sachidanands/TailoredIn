@@ -37,7 +37,7 @@ export function PriceSection() {
                   {services.map((service) => (
                     <TableRow key={service.name}>
                       <TableCell className="font-medium">{service.name}</TableCell>
-                      <TableCell className="text-right">{service.price}</TableCell>
+                      <TableCell className="text-right font-price">{service.price}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
