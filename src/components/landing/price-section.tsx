@@ -7,7 +7,7 @@ const services = [
   { name: 'Blouse (Simple)', price: 'Rs. 500/- onwards' },
   { name: 'Blouse (Designer)', price: 'Rs. 600/- onwards' },
   { name: 'Salwar Kameez', price: 'Rs. 800/- onwards' },
-  { name: 'Basic Alterations', price: 'Rs. 150/- onwards' },
+  { name: 'Basic Alterations', price: 'Rs. 200/- onwards' },
 ];
 
 export function PriceSection() {
