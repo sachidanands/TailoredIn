@@ -4,10 +4,10 @@ import { ScrollReveal } from '@/components/scroll-reveal';
 import { DynamicPricingTool } from './dynamic-pricing-tool';
 
 const services = [
-  { name: 'Blouse (Simple)', price: '&#8377;500 onwards' },
-  { name: 'Blouse (Designer)', price: '&#8377;1200 onwards' },
-  { name: 'Salwar Kameez', price: '&#8377;800 onwards' },
-  { name: 'Basic Alterations', price: '&#8377;150 onwards' },
+  { name: 'Blouse (Simple)', price: 'Rs. 500/- onwards' },
+  { name: 'Blouse (Designer)', price: 'Rs. 1200/- onwards' },
+  { name: 'Salwar Kameez', price: 'Rs. 800/- onwards' },
+  { name: 'Basic Alterations', price: 'Rs. 150/- onwards' },
 ];
 
 export function PriceSection() {
@@ -37,7 +37,7 @@ export function PriceSection() {
                   {services.map((service) => (
                     <TableRow key={service.name}>
                       <TableCell className="font-medium">{service.name}</TableCell>
-                      <TableCell className="text-right font-price" dangerouslySetInnerHTML={{ __html: service.price }} />
+                      <TableCell className="text-right font-price">{service.price}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>

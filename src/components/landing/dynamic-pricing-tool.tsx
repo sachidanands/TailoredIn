@@ -43,11 +43,11 @@ const FormSchema = z.object({
   location: z.string().min(1, 'Location is required.').default('Bangalore'),
 });
 
-const defaultPriceList = `Blouse (Simple): ₹500
-Salwar Kameez: ₹800
-Lehenga Choli: ₹3000`;
-const defaultCompetitorPrices = `Competitor A Blouse: ₹450
-Competitor B Salwar: ₹850`;
+const defaultPriceList = `Blouse (Simple): Rs. 500/-
+Salwar Kameez: Rs. 800/-
+Lehenga Choli: Rs. 3000/-`;
+const defaultCompetitorPrices = `Competitor A Blouse: Rs. 450/-
+Competitor B Salwar: Rs. 850/-`;
 
 export function DynamicPricingTool() {
   const [isOpen, setIsOpen] = useState(false);
