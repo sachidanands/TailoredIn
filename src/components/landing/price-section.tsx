@@ -7,9 +7,6 @@ const services = [
   { name: 'Blouse (Simple)', price: '₹500 onwards' },
   { name: 'Blouse (Designer)', price: '₹1200 onwards' },
   { name: 'Salwar Kameez', price: '₹800 onwards' },
-  { name: 'Anarkali Suit', price: '₹1500 onwards' },
-  { name: 'Lehenga Choli', price: '₹3000 onwards' },
-  { name: 'Gown / Evening Dress', price: '₹2500 onwards' },
   { name: 'Basic Alterations', price: '₹150 onwards' },
 ];
 
