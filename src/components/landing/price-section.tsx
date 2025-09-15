@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { ScrollReveal } from '@/components/scroll-reveal';
-import { DynamicPricingTool } from './dynamic-pricing-tool';
 
 const services = [
   { name: 'Blouse (Simple)', price: 'Rs. 500/- onwards' },
@@ -47,13 +46,6 @@ export function PriceSection() {
            <p className="text-center text-sm text-muted-foreground mt-4 max-w-4xl mx-auto">
               *Pickup and delivery within Bangalore limit is Rs.100.
             </p>
-          <div className="text-center mt-12">
-            <h3 className="font-headline text-2xl font-bold">Dynamic Pricing & Deals</h3>
-            <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-              We use smart tools to offer competitive pricing and seasonal deals. Try our AI-powered suggestion tool to see how it works!
-            </p>
-            <DynamicPricingTool />
-          </div>
         </ScrollReveal>
       </div>
     </section>
