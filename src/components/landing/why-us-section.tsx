@@ -32,9 +32,6 @@ export function WhyUsSection() {
                 </li>
               ))}
             </ul>
-            <p className="mt-6 text-sm italic text-muted-foreground">
-              *Pickup and delivery within Bangalore limit is Rs.100.
-            </p>
           </div>
           <div>
             {whyUsImage && (
