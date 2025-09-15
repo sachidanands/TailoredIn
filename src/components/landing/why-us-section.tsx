@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 import { ScrollReveal } from '@/components/scroll-reveal';
-import { Card, CardContent } from '@/components/ui/card';
-import { WhyUsGenerator } from './why-us-generator';
+import { Card } from '@/components/ui/card';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const whyUsPoints = [
   "Master Tailors with 20+ years of experience.",
@@ -12,6 +13,8 @@ const whyUsPoints = [
 ];
 
 export function WhyUsSection() {
+  const whyUsImage = PlaceHolderImages.find(p => p.id === 'why-us-image');
+
   return (
     <section id="why-us" className="bg-card">
       <div className="container mx-auto px-4 md:px-6">
@@ -31,15 +34,18 @@ export function WhyUsSection() {
             </ul>
           </div>
           <div>
-            <Card className="shadow-lg rounded-lg">
-              <CardContent className="p-6">
-                <h3 className="font-headline text-2xl font-bold">See Our AI in Action</h3>
-                <p className="mt-2 text-muted-foreground">
-                  Our marketing descriptions are enhanced with AI to be clear and compelling. Enter some raw notes about a business and see what our AI writer suggests!
-                </p>
-                <WhyUsGenerator />
-              </CardContent>
-            </Card>
+            {whyUsImage && (
+              <Card className="overflow-hidden shadow-lg rounded-lg">
+                 <Image
+                    src={whyUsImage.imageUrl}
+                    alt={whyUsImage.description}
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover"
+                    data-ai-hint={whyUsImage.imageHint}
+                  />
+              </Card>
+            )}
           </div>
         </ScrollReveal>
       </div>

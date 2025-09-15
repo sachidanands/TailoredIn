@@ -13,6 +13,12 @@
       "imageHint": "tailor shop"
     },
     {
+      "id": "why-us-image",
+      "description": "A close-up image showing the details of tailoring work, like stitching on a fine fabric.",
+      "imageUrl": "https://picsum.photos/seed/tailor7/600/400",
+      "imageHint": "tailoring details"
+    },
+    {
       "id": "experience-1",
       "description": "A close-up of a beautifully tailored blouse.",
       "imageUrl": "https://picsum.photos/seed/tailor3/400/600",
