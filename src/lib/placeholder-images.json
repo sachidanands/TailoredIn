@@ -15,31 +15,31 @@
     {
       "id": "why-us-image",
       "description": "A close-up image showing the details of tailoring work, like stitching on a fine fabric.",
-      "imageUrl": "https://picsum.photos/seed/tailor7/600/400",
+      "imageUrl": "https://i.imghippo.com/files/U19K1721290635.jpg",
       "imageHint": "tailoring details"
     },
     {
       "id": "experience-1",
       "description": "A close-up of a beautifully tailored blouse.",
-      "imageUrl": "https://picsum.photos/seed/tailor3/400/600",
+      "imageUrl": "https://i.imghippo.com/files/QeQ9953Pb.jpg",
       "imageHint": "tailored blouse"
     },
     {
       "id": "experience-2",
       "description": "A full view of an elegant lehenga choli.",
-      "imageUrl": "https://picsum.photos/seed/tailor4/400/600",
+      "imageUrl": "https://i.imghippo.com/files/xv8374qyA.jpg",
       "imageHint": "lehenga choli"
     },
     {
       "id": "experience-3",
       "description": "A stylish, custom-made dress on a mannequin.",
-      "imageUrl": "https://picsum.photos/seed/tailor5/400/600",
+      "imageUrl": "https://i.imghippo.com/files/ynC3533auo.jpg",
       "imageHint": "custom dress"
     },
     {
       "id": "experience-4",
       "description": "Detailed embroidery on a salwar kameez.",
-      "imageUrl": "https://picsum.photos/seed/tailor6/400/600",
+      "imageUrl": "https://i.imghippo.com/files/qXN7326YeQ.jpg",
       "imageHint": "salwar kameez"
     }
   ]
