@@ -44,6 +44,9 @@ export function PriceSection() {
               </Table>
             </CardContent>
           </Card>
+           <p className="text-center text-sm text-muted-foreground mt-4 max-w-4xl mx-auto">
+              *Pickup and delivery within Bangalore limit is Rs.100.
+            </p>
           <div className="text-center mt-12">
             <h3 className="font-headline text-2xl font-bold">Dynamic Pricing & Deals</h3>
             <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
