@@ -137,6 +137,69 @@ export default function RootLayout({
     }
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What's the best way to contact you for tailoring services in Bangalore?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Getting in touch is easy! Simply click the prominent 'Call Now' button on our website or use the phone number listed in the footer. We're ready to discuss your custom tailoring needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I schedule a consultation with a tailor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Just give us a call. Our representative will ask for your location to confirm service availability. If your area is covered, we will promptly schedule a convenient time for you to speak directly with one of our experienced tailors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is your typical turnaround time for tailoring?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For initial consultations and pickups in our serviced areas, we can typically have a representative with you within the hour. The timeline for completing your garment will be confirmed once we finalize the design and materials."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you handle measurements and material selection?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself. You can see an example in the image below."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the process for pickup and delivery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Once we've finalized the design, measurements, and materials, our representative will arrange to pick up the fabric from you. After the tailoring is complete, we'll contact you to schedule a convenient delivery time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you have a physical shop I can visit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We operate as a collective of skilled independent tailors dedicated to empowering women through their craft. We don't have a traditional brick-and-mortar shop, allowing us to focus on providing personalized, at-your-doorstep service."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you accept large commercial or bulk orders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our focus is on providing bespoke, individual tailoring services. We operate much like a personal tailor you would visit for specialized attention and do not handle commercial invoicing or bulk enterprise orders."
+        }
+      }
+    ]
+  };
+
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
@@ -147,6 +210,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       </head>
       <body className="font-body antialiased">
