@@ -59,7 +59,7 @@ export function Header() {
               variant="link"
               onClick={() => scrollToSection(item.id)}
               className={cn(
-                "text-lg font-semibold text-foreground/70 hover:text-primary hover:no-underline",
+                "text-lg font-bold text-foreground/70 hover:text-primary hover:no-underline",
                 activeSection === item.id && "text-primary font-bold"
               )}
             >
@@ -67,7 +67,7 @@ export function Header() {
             </Button>
           ))}
         </nav>
-        <Button className="hidden md:flex" style={{backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))'}} asChild>
+        <Button className="hidden md:flex animate-pulse-cta" style={{backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))'}} asChild>
             <a href="tel:+919590187030">Call Now</a>
         </Button>
       </div>

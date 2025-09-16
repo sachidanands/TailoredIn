@@ -79,6 +79,14 @@
   section {
     @apply py-16 md:py-24;
   }
+  @keyframes pulse-cta {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
 }
 
 @layer utilities {
@@ -93,5 +101,8 @@
   }
   .font-price {
     font-family: 'PT Sans', Arial, sans-serif;
+  }
+  .animate-pulse-cta {
+    animation: pulse-cta 2.5s infinite;
   }
 }
