@@ -41,6 +41,12 @@
       "description": "Detailed embroidery on a salwar kameez.",
       "imageUrl": "https://i.imghippo.com/files/qXN7326YeQ.jpg",
       "imageHint": "salwar kameez"
+    },
+    {
+      "id": "blouse-measurement",
+      "description": "A diagram showing how to take measurements for a blouse.",
+      "imageUrl": "https://picsum.photos/seed/blouse-measure/600/400",
+      "imageHint": "blouse measurement"
     }
   ]
 }

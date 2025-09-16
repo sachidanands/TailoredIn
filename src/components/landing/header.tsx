@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { id: 'pricing', label: 'Pricing' },
   { id: 'why-us', label: 'Why Us' },
   { id: 'experience', label: 'Our Work' },
+  { id: 'faq', label: 'FAQ' },
 ];
 
 export function Header() {
