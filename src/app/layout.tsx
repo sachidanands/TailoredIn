@@ -80,7 +80,61 @@ export default function RootLayout({
       "Nagavara",
       "RK Hegde Nagar",
       "Sampangi Rama Nagar"
-    ]
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Tailoring Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Blouse (Simple)"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "500",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Blouse (Designer)"
+          },
+           "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "600",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salwar Kameez"
+          },
+           "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "800",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Basic Alterations"
+          },
+           "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "200",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }
   };
 
   return (
