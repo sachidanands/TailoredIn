@@ -10,33 +10,33 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const faqItems = [
   {
-    question: "How to Contact?",
-    answer: "Simply click on Call us CTA available in header or call us on the number mentioned on the footer."
+    question: "What's the best way to contact you for tailoring services in Bangalore?",
+    answer: "Getting in touch is easy! Simply click the prominent 'Call Now' button on our website or use the phone number listed in the footer. We're ready to discuss your custom tailoring needs."
   },
   {
-    question: "How to speak to tailor?",
-    answer: "Call and speak to representative, share the area details, moderator will confirm if the location can be serviced. If Serviced he will schedule a time with tailor."
+    question: "How do I schedule a consultation with a tailor?",
+    answer: "Just give us a call. Our representative will ask for your location to confirm service availability. If your area is covered, we will promptly schedule a convenient time for you to speak directly with one of our experienced tailors."
   },
   {
-    question: "What is the turn around time?",
-    answer: "Usually tailor will turn around is within an hour, if the location is serviced."
+    question: "What is your typical turnaround time for tailoring?",
+    answer: "For initial consultations and pickups in our serviced areas, we can typically have a representative with you within the hour. The timeline for completing your garment will be confirmed once we finalize the design and materials."
   },
   {
-    question: "How do the measurement and material are finalized?",
-    answer: "We usually request our customer to share existing used blouse as sample of measurement, however if customer does not have the latest size blouse, we guide you to take the measurement an share the size like shown below.",
+    question: "How do you handle measurements and material selection?",
+    answer: "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself. You can see an example in the image below.",
     imageId: "blouse-measurement"
   },
   {
-    question: "How to setup a pickup and drop?",
-    answer: "Once the material is collected and details/Size are finalized, tailored will send representative and pick the material and complete the task and call back and setup delivery time."
+    question: "What is the process for pickup and delivery?",
+    answer: "Once we've finalized the design, measurements, and materials, our representative will arrange to pick up the fabric from you. After the tailoring is complete, we'll contact you to schedule a convenient delivery time."
   },
   {
-    question: "Do we own a shop?",
-    answer: "No, we do not own shop we are small group of people trying to empower women through this."
+    question: "Do you have a physical shop I can visit?",
+    answer: "We operate as a collective of skilled independent tailors dedicated to empowering women through their craft. We don't have a traditional brick-and-mortar shop, allowing us to focus on providing personalized, at-your-doorstep service."
   },
   {
-    question: "Do we take Commercial Order?",
-    answer: "No, we are not enterprise or process any bill or invoice we are indivual group who does just like you visit to open shop and do the txn."
+    question: "Do you accept large commercial or bulk orders?",
+    answer: "Our focus is on providing bespoke, individual tailoring services. We operate much like a personal tailor you would visit for specialized attention and do not handle commercial invoicing or bulk enterprise orders."
   }
 ];
 
