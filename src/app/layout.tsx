@@ -28,7 +28,7 @@ export default function RootLayout({
     },
     image: 'https://i.imghippo.com/files/lWI3994nAk.jpeg',
     url: 'https://www.tailoredin.com/', // Replace with your actual domain
-    priceRange: '$$',
+    priceRange: 'Rs',
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
