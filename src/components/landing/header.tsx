@@ -59,8 +59,8 @@ export function Header() {
               variant="link"
               onClick={() => scrollToSection(item.id)}
               className={cn(
-                "text-base font-medium text-foreground/70 hover:text-primary hover:no-underline",
-                activeSection === item.id && "text-primary font-semibold"
+                "text-lg font-semibold text-foreground/70 hover:text-primary hover:no-underline",
+                activeSection === item.id && "text-primary font-bold"
               )}
             >
               {item.label}
