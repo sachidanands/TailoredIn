@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
     images: [
       {
-        url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+        url: 'https://tailoredin.online/Img/tailored-In-image.png',
         width: 800,
         height: 600,
         alt: 'TailoredIn Logo',
@@ -42,7 +42,7 @@ export default function RootLayout({
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+      url: 'https://tailoredin.online/Img/tailored-In-image.png',
       width: '800',
       height: '600',
       caption: 'TailoredIn Logo',
