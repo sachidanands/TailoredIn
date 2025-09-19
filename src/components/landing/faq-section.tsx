@@ -23,8 +23,7 @@ const faqItems = [
   },
   {
     question: "How do you handle measurements and material selection?",
-    answer: "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself. You can see an example in the image below.",
-    imageId: "blouse-measurement"
+    answer: "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself."
   },
   {
     question: "What is the process for pickup and delivery?",
@@ -59,18 +58,6 @@ export function FaqSection() {
                   <AccordionTrigger className="text-lg text-left">{item.question}</AccordionTrigger>
                   <AccordionContent className="text-base text-muted-foreground">
                     <p>{item.answer}</p>
-                    {item.imageId && measurementImage && (
-                       <div className="mt-4">
-                        <Image
-                          src={measurementImage.imageUrl}
-                          alt={measurementImage.description}
-                          width={600}
-                          height={400}
-                          className="w-full h-auto rounded-lg object-cover"
-                          data-ai-hint={measurementImage.imageHint}
-                        />
-                      </div>
-                    )}
                   </AccordionContent>
                 </AccordionItem>
               ))}

@@ -170,7 +170,7 @@ export default function RootLayout({
         "name": "How do you handle measurements and material selection?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself. You can see an example in the image below."
+          "text": "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself."
         }
       },
       {
