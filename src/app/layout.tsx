@@ -26,7 +26,7 @@ export default function RootLayout({
       postalCode: '560077',
       addressCountry: 'IN',
     },
-    image: 'https://i.imghippo.com/files/lWI3994nAk.jpeg',
+    image: 'https://i.imghippo.com/files/1v3xH1722426369.png',
     url: 'https://www.tailoredin.com/', // Replace with your actual domain
     priceRange: 'Rs',
     openingHoursSpecification: [
