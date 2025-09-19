@@ -175,6 +175,14 @@ export default function RootLayout({
       },
       {
         "@type": "Question",
+        "name": "How to Measure Your Bust:",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To measure your bust size, you can follow these steps: Wear a well-fitting or non-padded bra for accurate measurements. Stand up straight with your arms relaxed at your sides. Wrap a measuring tape around your back and across the fullest part of your bust. The tape should be parallel to the floor and not too tight, but snug against your body. Make sure the tape is positioned around your breasts and back, without compressing your breasts. Take note of the measurement in inches where the end of the tape meets the rest of the tape measure. Repeat the measurement a couple of times, and take the average if there are slight variations. By measuring around the fullest part of your bust, you can determine your bust size accurately."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "What is the process for pickup and delivery?",
         "acceptedAnswer": {
           "@type": "Answer",

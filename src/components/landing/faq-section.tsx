@@ -26,6 +26,10 @@ const faqItems = [
     answer: "For a perfect fit, we recommend providing a well-fitting existing garment as a measurement sample. If you don't have one, don't worry! We will guide you through taking accurate measurements yourself."
   },
   {
+    question: "How to Measure Your Bust:",
+    answer: "To measure your bust size, you can follow these steps:\n\nWear a well-fitting or non-padded bra for accurate measurements.\nStand up straight with your arms relaxed at your sides.\nWrap a measuring tape around your back and across the fullest part of your bust.\nThe tape should be parallel to the floor and not too tight, but snug against your body.\nMake sure the tape is positioned around your breasts and back, without compressing your breasts.\nTake note of the measurement in inches where the end of the tape meets the rest of the tape measure.\nRepeat the measurement a couple of times, and take the average if there are slight variations.\nBy measuring around the fullest part of your bust, you can determine your bust size accurately."
+  },
+  {
     question: "What is the process for pickup and delivery?",
     answer: "Once we've finalized the design, measurements, and materials, our representative will arrange to pick up the fabric from you. After the tailoring is complete, we'll contact you to schedule a convenient delivery time."
   },
@@ -57,7 +61,7 @@ export function FaqSection() {
                 <AccordionItem key={index} value={`item-${index}`}>
                   <AccordionTrigger className="text-lg text-left">{item.question}</AccordionTrigger>
                   <AccordionContent className="text-base text-muted-foreground">
-                    <p>{item.answer}</p>
+                    <p className="whitespace-pre-line">{item.answer}</p>
                   </AccordionContent>
                 </AccordionItem>
               ))}
