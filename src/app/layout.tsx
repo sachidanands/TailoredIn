@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
     images: [
       {
-        url: 'https://i.imghippo.com/files/SLXO6734jbM.png',
+        url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
         width: 800,
         height: 600,
         alt: 'TailoredIn Logo',
@@ -40,7 +40,7 @@ export default function RootLayout({
       postalCode: '560077',
       addressCountry: 'IN',
     },
-    image: 'https://i.imghippo.com/files/SLXO6734jbM.png',
+    image: 'https://www.tailoredin.com/Img/tailored-In-image.png',
     url: 'https://www.tailoredin.com/', // Replace with your actual domain
     priceRange: 'Rs',
     openingHoursSpecification: [
