@@ -40,7 +40,13 @@ export default function RootLayout({
       postalCode: '560077',
       addressCountry: 'IN',
     },
-    image: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+      width: '800',
+      height: '600',
+      caption: 'TailoredIn Logo',
+    },
     url: 'https://www.tailoredin.com/', // Replace with your actual domain
     priceRange: 'Rs',
     openingHoursSpecification: [
