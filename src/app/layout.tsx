@@ -5,6 +5,20 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'TailoredIn - Ladies Tailor in Bangalore',
   description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
+  openGraph: {
+    title: 'TailoredIn - Ladies Tailor in Bangalore',
+    description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
+    images: [
+      {
+        url: 'https://i.imghippo.com/files/1v3xH1722426369.png',
+        width: 800,
+        height: 600,
+        alt: 'TailoredIn Logo',
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
