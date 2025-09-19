@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'TailoredIn - Ladies Tailor in Bangalore',
     description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
+    url: 'https://www.tailoredin.com/',
     images: [
       {
         url: 'https://tailoredin.online/Img/tailored-In-image.png',
