@@ -1,8 +1,6 @@
 import type {Metadata} from 'next';
-import { Suspense } from 'react';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import { GoogleTagManager } from '@/components/google-tag-manager';
 
 export const metadata: Metadata = {
   title: 'TailoredIn - Ladies Tailor in Bangalore',
@@ -234,9 +232,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        <Suspense>
-          <GoogleTagManager gtmId="GTM-M4V26FT4" />
-        </Suspense>
         <link rel="canonical" href="https://www.tailoredin.online" />
         <meta name="google-site-verification" content="5M8a6xWs3w2DKEKVlZLlC2Wh3tcWa9iOxgo1Qb80m94" />
         <meta charSet="UTF-8" />
@@ -253,8 +248,6 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased">
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4V26FT4"
-height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
         {children}
         <Toaster />
       </body>
