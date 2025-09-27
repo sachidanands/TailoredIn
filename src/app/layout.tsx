@@ -242,15 +242,6 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-M4V26FT4');
           `}
         </Script>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MYP85ZVWTK"></Script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-MYP85ZVWTK');
-          `}
-        </Script>
         <link rel="canonical" href="https://www.tailoredin.online" />
         <meta name="google-site-verification" content="5M8a6xWs3w2DKEKVlZLlC2Wh3tcWa9iOxgo1Qb80m94" />
         <meta charSet="UTF-8" />
