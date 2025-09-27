@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'TailoredIn - Ladies Tailor in Bangalore',
     description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
-    url: 'https://www.tailoredin.com/',
+    url: 'https://www.tailoredin.online/',
     images: [
       {
-        url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+        url: 'https://www.tailoredin.online/Img/tailored-In-image.png',
         width: 800,
         height: 600,
         alt: 'TailoredIn Logo',
@@ -44,12 +44,12 @@ export default function RootLayout({
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
+      url: 'https://www.tailoredin.online/Img/tailored-In-image.png',
       width: '800',
       height: '600',
       caption: 'TailoredIn Logo',
     },
-    url: 'https://www.tailoredin.com/', // Replace with your actual domain
+    url: 'https://www.tailoredin.online/',
     priceRange: 'Rs',
     openingHoursSpecification: [
       {
@@ -233,7 +233,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        <Script id="google-tag-manager">
+        <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -242,7 +242,16 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-M4V26FT4');
           `}
         </Script>
-        <link rel="canonical" href="https://www.tailoredin.com" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MYP85ZVWTK"></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MYP85ZVWTK');
+          `}
+        </Script>
+        <link rel="canonical" href="https://www.tailoredin.online" />
         <meta name="google-site-verification" content="5M8a6xWs3w2DKEKVlZLlC2Wh3tcWa9iOxgo1Qb80m94" />
         <meta charSet="UTF-8" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
