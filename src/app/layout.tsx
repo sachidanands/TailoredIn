@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: 'https://www.tailoredin.com/',
     images: [
       {
-        url: 'https://tailoredin.online/Img/tailored-In-image.png',
+        url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
         width: 800,
         height: 600,
         alt: 'TailoredIn Logo',
@@ -44,7 +44,7 @@ export default function RootLayout({
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://tailoredin.online/Img/tailored-In-image.png',
+      url: 'https://www.tailoredin.com/Img/tailored-In-image.png',
       width: '800',
       height: '600',
       caption: 'TailoredIn Logo',
@@ -233,14 +233,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MYP85ZVWTK" />
-        <Script id="google-analytics">
+        <Script id="google-tag-manager">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-MYP85ZVWTK');
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-M4V26FT4');
           `}
         </Script>
         <link rel="canonical" href="https://www.tailoredin.com" />
@@ -259,6 +258,8 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased">
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4V26FT4"
+height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
         {children}
         <Toaster />
       </body>
