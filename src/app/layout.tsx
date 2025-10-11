@@ -2,6 +2,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
+import { serviceLocations } from '@/lib/locations';
 
 export const metadata: Metadata = {
   title: 'TailoredIn - Ladies Tailor in Bangalore',
@@ -66,43 +67,7 @@ export default function RootLayout({
         closes: '20:00'
       }
     ],
-    "areaServed": [
-      "Amarjyothi Extension",
-      "Arkavathy Layout",
-      "Dynasty Layout",
-      "Dr. Shivaram Karanth Nagar",
-      "Fortune Valley",
-      "Mariyannapalya",
-      "Manyata Tech Park",
-      "Manyata Residency",
-      "P&T Layout",
-      "Rachenahalli",
-      "Rachenahalli Main Road",
-      "Railwaymen Layout",
-      "Srirampura Jakkur",
-      "Sinthan Nagar",
-      "Areas within Jakkur",
-      "Jakkur Aerospace Park",
-      "Jakkur Garden City",
-      "Jakkur Green City",
-      "Jakkur Industrial Area",
-      "Jakkur Lake View",
-      "Jakkur Layout",
-      "Jakkur Orchid Meadows",
-      "Jakkur Palm Meadows",
-      "Jakkur Plantation",
-      "Jakkur Tulip Meadows",
-      "Jakkur Village",
-      "Neighboring areas",
-      "Agrahara",
-      "Amruthahalli",
-      "Geddalahalli",
-      "Kothnur Narayanapura",
-      "Mesthri Palya",
-      "Nagavara",
-      "RK Hegde Nagar",
-      "Sampangi Rama Nagar"
-    ],
+    "areaServed": serviceLocations,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Tailoring Services",

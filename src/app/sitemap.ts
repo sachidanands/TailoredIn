@@ -3,10 +3,16 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://www.tailoredin.com',
+      url: 'https://www.tailoredin.online',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
+    },
+    {
+      url: 'https://www.tailoredin.online/locations/bengaluru',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
   ]
 }
