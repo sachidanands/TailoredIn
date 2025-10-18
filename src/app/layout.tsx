@@ -6,10 +6,10 @@ import { serviceLocations } from '@/lib/locations';
 
 export const metadata: Metadata = {
   title: 'TailoredIn - Ladies Tailor in Bangalore',
-  description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
+  description: "Get custom-fit blouses with Bangalore's best ladies tailoring service, delivered to your doorstep in 3-5 days. Experience convenient online booking for expert bespoke tailoring for women & kids with TailoredIn.",
   openGraph: {
     title: 'TailoredIn - Ladies Tailor in Bangalore',
-    description: 'Exquisite ladies tailoring services in Bangalore. Custom-fit blouses, salwar kameez, lehengas, and more.',
+    description: "Get custom-fit blouses with Bangalore's best ladies tailoring service, delivered to your doorstep in 3-5 days. Experience convenient online booking for expert bespoke tailoring for women & kids with TailoredIn.",
     url: 'https://www.tailoredin.online/',
     images: [
       {
