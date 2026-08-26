@@ -107,4 +107,7 @@
   .animate-pulse-cta {
     animation: pulse-cta 2.5s infinite;
   }
+  .safe-area-bottom {
+    padding-bottom: max(0.625rem, env(safe-area-inset-bottom));
+  }
 }
