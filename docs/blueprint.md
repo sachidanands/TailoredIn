@@ -14,7 +14,7 @@
 - Primary color: Deep Purple (#673AB7) for a sophisticated and reliable feel, contrasting well with lighter backgrounds. It evokes trust and creativity, aligning with personalized tailoring.
 - Background color: Light Gray (#F5F5F5), offering a clean and neutral backdrop to make content stand out without distraction.
 - Accent color: Teal (#00BCD4) to draw attention to key interactive elements. Its brightness contrasts well with the primary, but also looks calm and trustworthy.
-- Headline font: 'Playfair', a serif font known for it's fashion-conscious, high-end look, will make the opening statement more noticeable. Body text font: 'PT Sans', to provide greater clarity on long blocks of text, especially descriptions of clothing in the "our experience" section.
+- Headline font: 'Playfair Display', a serif font known for it's fashion-conscious, high-end look, will make the opening statement more noticeable. Body text font: 'Plus Jakarta Sans', to provide clean modern elegance, high legibility, and accurate native rendering of Indian currency symbols (₹).
 - Use clean, modern icons to represent services and features, enhancing usability and visual appeal. Style icons for size, and alignment to make icons blend with all parts of the one page website. Ensure compatibility with HTML, CSS, and JavaScript only.
 - Maintain a simple and intuitive layout that allows the customers to navigate smoothly using only HTML, CSS, and JavaScript. Align items accordingly with sizes.
 - Employ subtle transitions and animations using CSS and JavaScript to add visual interest without overwhelming the user, such as fading in new sections on scroll. Avoid any external libraries or frameworks.

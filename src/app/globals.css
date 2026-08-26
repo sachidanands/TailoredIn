@@ -100,7 +100,9 @@
     transform: translateY(0);
   }
   .font-price {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', Inter, system-ui, -apple-system, sans-serif;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
   }
   .animate-pulse-cta {
     animation: pulse-cta 2.5s infinite;
