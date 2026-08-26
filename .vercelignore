@@ -1,0 +1,3 @@
+# Exclude local AI agent skills and IDE configurations from Vercel deployments
+.agents
+.gemini

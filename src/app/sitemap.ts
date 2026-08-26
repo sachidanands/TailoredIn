@@ -1,18 +1,26 @@
-import { MetadataRoute } from 'next'
- 
+import { MetadataRoute } from 'next';
+import { locationDetailsList } from '@/lib/locations-data';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const baseUrl = 'https://www.tailoredin.online';
+
+  const mainPages: MetadataRoute.Sitemap = [
     {
-      url: 'https://www.tailoredin.online',
+      url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
+      changeFrequency: 'weekly',
+      priority: 1.0,
+      images: [`${baseUrl}/Img/tailored-In-image.png`],
     },
-    {
-      url: 'https://www.tailoredin.online/locations/bengaluru',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-  ]
+  ];
+
+  const locationPages: MetadataRoute.Sitemap = locationDetailsList.map((loc) => ({
+    url: `${baseUrl}/locations/${loc.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+    images: [`${baseUrl}/Img/tailored-In-image.png`],
+  }));
+
+  return [...mainPages, ...locationPages];
 }

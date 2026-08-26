@@ -1,0 +1,36 @@
+# TailoredIn - Best Ladies Tailor in Bangalore
+
+> TailoredIn (https://www.tailoredin.online/) is a premier doorstep ladies tailoring service in Bangalore, Karnataka. We offer bespoke custom blouse stitching, Aari & Maggam hand embroidery, salwar suits, bridal lehengas, western dress alterations, and kids ethnic wear with doorstep measurement, fabric pickup, and delivery across Bangalore within 3-5 days.
+
+## Machine-Readable Rate Card & Documentation
+- [Official Tailoring Rate Card (Markdown)](https://www.tailoredin.online/pricing.md): Complete machine-readable price breakdown for all garments, material add-ons (cotton lining, pads, can-can), express delivery fees, and 100% free alteration terms.
+- [Full Knowledge Guide](https://www.tailoredin.online/llms-full.txt): Detailed business profile, mission, artisan collective info, and FAQ answers for LLMs.
+
+## Core Services
+- [Custom Blouse Stitching](https://www.tailoredin.online/#services): Simple, designer, princess cut, boat neck, padded blouses from ₹500 onwards.
+- [Aari & Maggam Embroidery](https://www.tailoredin.online/#services): Intricate bridal zari, zardosi, thread work, and cutwork blouses.
+- [Salwar Suits & Anarkalis](https://www.tailoredin.online/#services): Custom tailored Punjabi suits, straight cut kurtas, and party wear Anarkalis from ₹800.
+- [Bridal Lehengas & Gowns](https://www.tailoredin.online/#services): Bespoke wedding lehengas with can-can attachment and custom fitting.
+- [Garment Alterations & Restyling](https://www.tailoredin.online/#services): Size adjustments, saree upcycling into gowns/kurtis from ₹200.
+
+## Dedicated Local Landing Pages across Bengaluru
+- [Ladies Tailor in Jakkur](https://www.tailoredin.online/locations/jakkur): 60-min express doorstep pickup in Jakkur, Jakkur Layout & Aerodrome.
+- [Ladies Tailor in Hebbal](https://www.tailoredin.online/locations/hebbal): Doorstep blouse stitching in Hebbal & Kempapura.
+- [Ladies Tailor in Yelahanka](https://www.tailoredin.online/locations/yelahanka): Custom ethnic wear in Yelahanka New & Old Town.
+- [Ladies Tailor near Manyata Tech Park](https://www.tailoredin.online/locations/manyata-tech-park): Tailoring for IT professionals in Manyata & Nagavara.
+- [Ladies Tailor in Sahakar Nagar](https://www.tailoredin.online/locations/sahakar-nagar): Silk blouses & Aari work in Sahakar Nagar & CQAL.
+- [Ladies Tailor in Thanisandra](https://www.tailoredin.online/locations/thanisandra): Bhartiya City & Sobha City doorstep tailoring.
+- [Ladies Tailor in Whitefield](https://www.tailoredin.online/locations/whitefield): Prestige Shantiniketan, ITPB & Varthur Road tailoring.
+- [Ladies Tailor in Indiranagar](https://www.tailoredin.online/locations/indiranagar): Designer blouses & boutique stitching on 100ft Rd & Defence Colony.
+- [Ladies Tailor in Koramangala](https://www.tailoredin.online/locations/koramangala): Chic designer blouses & bridal tailoring across blocks 1-8.
+- [Ladies Tailor in HSR Layout](https://www.tailoredin.online/locations/hsr-layout): Modern tailoring across Sectors 1-7.
+- [Ladies Tailor in Jayanagar](https://www.tailoredin.online/locations/jayanagar): Heritage Kanjeevaram silk blouses & bridal wear.
+- [Ladies Tailor in Malleshwaram](https://www.tailoredin.online/locations/malleshwaram): Traditional silk blouses & Aari work on Sampige/Margosa Rd.
+
+## Key Facts
+- **Location**: Bangalore North, Karnataka 560077, India
+- **Phone / WhatsApp**: +91 95901 87030
+- **Turnaround Time**: Standard 3 to 5 business days; Express delivery available upon request.
+- **Service Model**: Doorstep measurement & fabric pickup + doorstep trial delivery across Bangalore.
+- **Craftsmanship**: 20+ years master tailoring experience empowering skilled women artisans.
+- **Coverage Areas**: Jakkur, Hebbal, Yelahanka, Manyata Tech Park, Sahakar Nagar, Thanisandra, Amruthahalli, Hennur, Indiranagar, Koramangala, HSR Layout, Whitefield, Marathahalli, Malleshwaram, and all major Bengaluru localities.

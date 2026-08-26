@@ -1,52 +1,95 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { ScrollReveal } from '@/components/scroll-reveal';
+import { PriceCalculator } from '@/components/landing/price-calculator';
+import { Badge } from '@/components/ui/badge';
+import { Tag, Sparkles, CheckCircle2, Truck } from 'lucide-react';
 
-const services = [
-  { name: 'Blouse (Simple)', price: 'Rs. 500/- onwards' },
-  { name: 'Blouse (Designer)', price: 'Rs. 600/- onwards' },
-  { name: 'Salwar Kameez', price: 'Rs. 800/- onwards' },
-  { name: 'Basic Alterations', price: 'Rs. 200/- onwards' },
+const standardPrices = [
+  { service: 'Simple Blouse (Katori / Cross-cut)', price: '₹500 onwards', time: '3-4 Days', notes: 'Daily & regular wear' },
+  { service: 'Designer Blouse (Princess Cut / Boat Neck / Padded)', price: '₹600 onwards', time: '3-5 Days', notes: 'Modern cuts with cup pads & dori' },
+  { service: 'Aari & Maggam Work Bridal Blouse', price: '₹1,500 onwards', time: '5-7 Days', notes: 'Handcrafted zardosi & stone embroidery' },
+  { service: 'Salwar Kameez / Punjabi Suit', price: '₹800 onwards', time: '3-5 Days', notes: 'Straight, palazzo, or Patiala' },
+  { service: 'Anarkali Suit / Floor-Length Kurta', price: '₹1,200 onwards', time: '4-6 Days', notes: 'Flared kali cut with lining' },
+  { service: 'Bridal Lehenga Choli Stitching', price: '₹3,000 onwards', time: '5-8 Days', notes: 'Can-can flare, padded choli & latkans' },
+  { service: 'Western Dress / Co-ord Set', price: '₹900 onwards', time: '4-5 Days', notes: 'Custom fit with lining' },
+  { service: 'Basic Alterations & Size Adjustments', price: '₹200 onwards', time: '2-3 Days', notes: 'Tighten, loosen, shorten, zipper fix' },
 ];
 
 export function PriceSection() {
   return (
-    <section id="pricing">
+    <section id="pricing" className="py-16 md:py-24 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <ScrollReveal>
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">Our Pricing</h2>
-            <p className="mt-2 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Transparent pricing for quality craftsmanship. Prices may vary based on fabric and complexity.
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-3">
+              <Tag className="h-3.5 w-3.5" />
+              <span>Transparent Rates</span>
+            </div>
+            <h2 className="font-headline text-3xl sm:text-4xl lg:text-5xl font-bold text-primary tracking-tight">
+              Fair & Transparent Pricing
+            </h2>
+            <p className="mt-4 text-base sm:text-lg text-muted-foreground">
+              No hidden fees or unexpected charges. Quality craftsmanship at accessible prices, tailored to your design preferences.
             </p>
           </div>
-          <Card className="max-w-4xl mx-auto shadow-lg rounded-lg">
-            <CardHeader>
-              <CardTitle>Standard Service Rates</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <Table>
-                <TableHeader>
-                  <TableRow>
-                    <TableHead className="text-base">Service</TableHead>
-                    <TableHead className="text-right text-base">Starting Price</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {services.map((service) => (
-                    <TableRow key={service.name}>
-                      <TableCell className="font-medium">{service.name}</TableCell>
-                      <TableCell className="text-right font-price">{service.price}</TableCell>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </CardContent>
-          </Card>
-           <p className="text-center text-sm text-muted-foreground mt-4 max-w-4xl mx-auto">
-              *Pickup and delivery within Bangalore limit is Rs.100.
-            </p>
         </ScrollReveal>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start max-w-6xl mx-auto">
+          {/* Standard Rates Table */}
+          <ScrollReveal className="lg:col-span-6 space-y-6">
+            <Card className="shadow-lg rounded-xl overflow-hidden border-border">
+              <CardHeader className="bg-muted/40 border-b pb-4">
+                <CardTitle className="text-xl font-headline text-foreground flex items-center justify-between">
+                  <span>Standard Service Rates</span>
+                  <Badge variant="outline" className="text-xs bg-card">INR (₹)</Badge>
+                </CardTitle>
+                <CardDescription className="text-xs text-muted-foreground">
+                  Prices cover standard master stitching. Add-on embellishments and specialty fabrics quoted transparently.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-0">
+                <Table>
+                  <TableHeader>
+                    <TableRow className="bg-muted/20">
+                      <TableHead className="text-xs font-bold uppercase">Garment Type</TableHead>
+                      <TableHead className="text-right text-xs font-bold uppercase">Starting Price</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {standardPrices.map((item, idx) => (
+                      <TableRow key={idx} className="hover:bg-muted/30">
+                        <TableCell className="py-3">
+                          <div className="font-medium text-sm text-foreground">{item.service}</div>
+                          <div className="text-xs text-muted-foreground">{item.notes} • <span className="text-primary font-medium">{item.time}</span></div>
+                        </TableCell>
+                        <TableCell className="text-right font-bold text-primary font-price text-sm whitespace-nowrap">
+                          {item.price}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </CardContent>
+            </Card>
+
+            {/* Pickup & Delivery Policy Alert */}
+            <div className="p-4 rounded-lg bg-accent/10 border border-accent/30 text-sm text-foreground flex items-start gap-3">
+              <Truck className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+              <div>
+                <span className="font-semibold text-foreground">Bangalore Pickup & Delivery:</span>
+                <p className="text-muted-foreground text-xs mt-1">
+                  Convenient doorstep pickup and drop across Bangalore for just ₹100. Complimentary free delivery on orders above ₹1,500!
+                </p>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          {/* Interactive Estimator Tool */}
+          <ScrollReveal className="lg:col-span-6">
+            <PriceCalculator />
+          </ScrollReveal>
+        </div>
       </div>
     </section>
   );
