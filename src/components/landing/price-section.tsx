@@ -9,11 +9,6 @@ const standardPrices = [
   { service: 'Simple Blouse (Katori / Cross-cut)', price: '₹500 onwards', time: '3-4 Days', notes: 'Daily & regular wear' },
   { service: 'Designer Blouse (Princess Cut / Boat Neck / Padded)', price: '₹600 onwards', time: '3-5 Days', notes: 'Modern cuts with cup pads & dori' },
   { service: 'Aari & Maggam Work Bridal Blouse', price: '₹1,500 onwards', time: '5-7 Days', notes: 'Handcrafted zardosi & stone embroidery' },
-  { service: 'Salwar Kameez / Punjabi Suit', price: '₹800 onwards', time: '3-5 Days', notes: 'Straight, palazzo, or Patiala' },
-  { service: 'Anarkali Suit / Floor-Length Kurta', price: '₹1,200 onwards', time: '4-6 Days', notes: 'Flared kali cut with lining' },
-  { service: 'Bridal Lehenga Choli Stitching', price: '₹3,000 onwards', time: '5-8 Days', notes: 'Can-can flare, padded choli & latkans' },
-  { service: 'Western Dress / Co-ord Set', price: '₹900 onwards', time: '4-5 Days', notes: 'Custom fit with lining' },
-  { service: 'Basic Alterations & Size Adjustments', price: '₹200 onwards', time: '2-3 Days', notes: 'Tighten, loosen, shorten, zipper fix' },
 ];
 
 export function PriceSection() {

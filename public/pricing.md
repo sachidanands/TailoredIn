@@ -13,16 +13,9 @@
 
 | Garment Type | Craftsmanship Description | Starting Price (INR) | Standard Turnaround |
 | :--- | :--- | :--- | :--- |
-| **Simple Blouse** | Regular round / square / cross-cut blouse with basic cotton lining, double interlock stitching, hooks, and loops. | **₹500** | 3–5 Days |
+| **Simple Blouse** | Regular round / square / cross-cut blouse with basic cotton lining, double interlock stitching, hooks, and loops. | **₹500** | 3–4 Days |
 | **Designer Blouse** | Princess cut, boat neck, sweetheart neck, deep back, backless, potli buttons, or cup-padded blouse. | **₹600** | 3–5 Days |
 | **Aari & Maggam Work Blouse** | Handcrafted bridal embroidery with zardosi, antique gold zari, stone work, bead work, and custom temple/peacock motifs. | **₹1,500 – ₹4,500** | 5–7 Days |
-| **Salwar Kameez / Punjabi Suit** | Custom tailored daily wear or office wear suit, kurti with straight pants, palazzo set, or Patiala salwar. | **₹800** | 3–5 Days |
-| **Anarkali & Flared Ethnic Gowns** | Floor-length Anarkali dresses, umbrella cut kurtas, kali cut gowns with custom yoke styling. | **₹1,200** | 3–5 Days |
-| **Bridal Lehenga Choli** | Heavy wedding lehengas with multi-layer can-can skirt structuring, padded choli blouse, and dupatta border attachment. | **₹3,000** | 5–7 Days |
-| **Western & Indo-Western Dresses** | Bespoke party dresses, ethnic crop tops, co-ord sets, tailored jumpsuits, and custom skirts. | **₹900** | 3–5 Days |
-| **Saree Upcycling & Restyling** | Converting vintage Kanjeevaram or silk sarees into designer Anarkalis, lehengas, or ethnic jackets. | **₹1,500** | 5–7 Days |
-| **Garment Alterations & Repairs** | Size reduction, waist tightening, sleeve attachment, zipper replacement, hem length adjustment. | **₹200** | 2–3 Days |
-| **Saree Pico & Fall Work** | Precision machine/hand saree fall stitching and edge pico finishing. | **₹150** | 2–3 Days |
 
 ---
 

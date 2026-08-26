@@ -86,13 +86,13 @@ export function Footer() {
           <div className="space-y-3">
             <h4 className="font-headline font-bold text-base text-foreground">Specializations</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Designer & Princess Cut Blouses</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Simple Katori & Cross-Cut Blouses</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Designer Princess Cut Blouses</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Boat Neck & Sweetheart Blouses</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Cup-Padded & Backless Blouses</Link></li>
               <li><Link href="/#services" className="hover:text-primary transition-colors">Aari & Maggam Bridal Work</Link></li>
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Salwar Kameez & Palazzo Suits</Link></li>
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Bridal Lehengas & Ethnic Gowns</Link></li>
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Saree Upcycling into Anarkalis</Link></li>
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Ladies Garment Alterations</Link></li>
-              <li><Link href="/#services" className="hover:text-primary transition-colors">Kids Pattu Pavada & Frocks</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Zardosi & Hand Embroidery</Link></li>
+              <li><Link href="/#services" className="hover:text-primary transition-colors">Custom Dori, Latkans & Piping</Link></li>
             </ul>
           </div>
 

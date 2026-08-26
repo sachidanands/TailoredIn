@@ -30,27 +30,6 @@ export function LocationServices({ location }: LocationServicesProps) {
       tag: 'Bridal Special',
       features: ['Custom bridal motifs', 'Authentic zari & pearls', 'Pre-embroidery design alignment'],
     },
-    {
-      title: 'Salwar Kameez & Kurti Stitching',
-      desc: 'Custom-fit straight kurtis, Punjabi suits, palazzo sets, cigarette pants, and Patiala salwars.',
-      price: '₹800',
-      tag: 'Daily & Office',
-      features: ['Comfortable armholes', 'Pocket attachments', 'Perfect side slits & hemlines'],
-    },
-    {
-      title: 'Bridal Lehenga Choli & Ethnic Gowns',
-      desc: 'Heavy flared bridal lehengas with can-can layering, padded choli blouse, and designer tassels.',
-      price: '₹3,000',
-      tag: 'Wedding Couture',
-      features: ['Multi-layer can-can flare', 'Custom waist drawstring', 'Dupatta border attachment'],
-    },
-    {
-      title: 'Alterations, Restyling & Saree Pico/Fall',
-      desc: 'Doorstep resizing, sleeve additions, blouse adjustments, saree fall/pico, and vintage saree upcycling.',
-      price: '₹200',
-      tag: 'Quick Service',
-      features: ['Doorstep trial', 'Same-day alteration pickup', 'Gentle fabric care'],
-    },
   ];
 
   return (

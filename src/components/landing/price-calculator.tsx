@@ -19,10 +19,6 @@ const SERVICE_OPTIONS: ServiceOption[] = [
   { id: 'simple-blouse', name: 'Simple Blouse', basePrice: 500 },
   { id: 'designer-blouse', name: 'Designer Blouse (Princess Cut / Boat Neck)', basePrice: 600 },
   { id: 'aari-blouse', name: 'Aari & Maggam Work Blouse', basePrice: 1500 },
-  { id: 'salwar-suit', name: 'Salwar Kameez / Suit', basePrice: 800 },
-  { id: 'anarkali', name: 'Anarkali / Flared Ethnic Gown', basePrice: 1200 },
-  { id: 'bridal-lehenga', name: 'Bridal Lehenga Choli', basePrice: 3000 },
-  { id: 'alteration', name: 'Garment Alteration / Re-fit', basePrice: 200 },
 ];
 
 const LINING_OPTIONS = [
@@ -35,7 +31,6 @@ const ADDONS = [
   { id: 'cups', name: 'High-Grade Bra Cup Padding', price: 150 },
   { id: 'latkans', name: 'Designer Dori & Handcrafted Latkans', price: 150 },
   { id: 'potli-buttons', name: 'Potli Buttons / Custom Piping Detail', price: 100 },
-  { id: 'cancan', name: 'Can-Can Netting Flare (For Lehengas/Gowns)', price: 600 },
   { id: 'express', name: 'Express Rush Delivery (24-48 Hours)', price: 300 },
 ];
 

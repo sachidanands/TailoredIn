@@ -16,9 +16,9 @@ const faqItems = [
       "It is simple and hassle-free!\n\n1. Book online, call +91 95901 87030, or message us on WhatsApp with your location.\n2. Our tailoring executive visits your home to collect your fabric and take measurements (or collect your best-fitting sample blouse/kurti).\n3. Our master seamstresses craft your outfit with precision pattern-cutting, premium lining, and reinforced double stitches.\n4. We deliver your ready-to-wear outfit to your doorstep within 3-5 days with a 100% fit guarantee.",
   },
   {
-    question: "What are the starting prices for blouse and suit stitching?",
+    question: "What are the starting prices for blouse stitching in Bangalore?",
     answer:
-      "Our pricing is transparent with no hidden charges:\n• Simple Blouse (Katori / Cross-Cut): ₹500 onwards\n• Designer Blouse (Princess Cut, Boat Neck, Sweetheart, Padded): ₹600 onwards\n• Aari & Maggam Work Bridal Blouse: ₹1,500 onwards\n• Salwar Kameez / Punjabi Suit: ₹800 onwards\n• Anarkali / Flared Ethnic Gown: ₹1,200 onwards\n• Bridal Lehenga Choli: ₹3,000 onwards\n• Garment Alterations: ₹200 onwards\n\nFabric add-ons (lining, bra padding, latkans, can-can) are itemized clearly before stitching.",
+      "Our pricing is transparent with no hidden charges:\n• Simple Blouse (Katori / Cross-Cut): ₹500 onwards\n• Designer Blouse (Princess Cut, Boat Neck, Sweetheart, Padded): ₹600 onwards\n• Aari & Maggam Work Bridal Blouse: ₹1,500 onwards\n\nFabric add-ons (pure cotton lining, bra padding, latkans, custom piping) are itemized clearly before stitching.",
   },
   {
     question: "What is your turnaround delivery timeline?",

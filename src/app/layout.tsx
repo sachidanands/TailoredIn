@@ -173,45 +173,6 @@ export default function RootLayout({
             priceCurrency: 'INR',
           },
         },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Salwar Kameez & Kurti Stitching',
-            description: 'Custom tailored salwar suits, Punjabi suits, palazzo sets, and straight-cut kurtis.',
-          },
-          priceSpecification: {
-            '@type': 'PriceSpecification',
-            price: '800',
-            priceCurrency: 'INR',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Bridal Lehenga Choli Stitching',
-            description: 'Heavy bridal lehengas with can-can layering, padded choli blouse, and dupatta tassels.',
-          },
-          priceSpecification: {
-            '@type': 'PriceSpecification',
-            price: '3000',
-            priceCurrency: 'INR',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Ladies Garment Alterations & Restyling',
-            description: 'Size adjustments, sleeve attachments, saree upcycling into Anarkalis, and hem alterations.',
-          },
-          priceSpecification: {
-            '@type': 'PriceSpecification',
-            price: '200',
-            priceCurrency: 'INR',
-          },
-        },
       ],
     },
   };

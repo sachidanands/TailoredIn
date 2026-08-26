@@ -157,10 +157,6 @@ export function BookingModal({ children, defaultService, defaultArea, className 
                     <SelectItem value="Simple Blouse (₹500+)">Simple Blouse (₹500+)</SelectItem>
                     <SelectItem value="Designer Blouse (₹600+)">Designer Blouse (₹600+)</SelectItem>
                     <SelectItem value="Aari & Maggam Work Blouse (₹1500+)">Aari & Maggam Blouse (₹1500+)</SelectItem>
-                    <SelectItem value="Salwar Kameez / Suit (₹800+)">Salwar Kameez / Suit (₹800+)</SelectItem>
-                    <SelectItem value="Bridal Lehenga Choli (₹3000+)">Bridal Lehenga Choli (₹3000+)</SelectItem>
-                    <SelectItem value="Anarkali / Flared Dress (₹1200+)">Anarkali / Flared Dress (₹1200+)</SelectItem>
-                    <SelectItem value="Alterations / Restyling (₹200+)">Alterations / Restyling (₹200+)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

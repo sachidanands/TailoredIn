@@ -63,49 +63,6 @@ const servicesData: TailoringService[] = [
       'Stiffened canvas backing & comfortable pure cotton lining',
     ],
   },
-  {
-    id: 'salwar-kameez',
-    name: 'Salwar Suits, Kurtis & Anarkalis',
-    category: 'Ethnic Wear',
-    startingPrice: '₹800',
-    turnaround: '3 - 5 Days',
-    description: 'Custom tailored ethnic wear designed for elegance and comfort, from everyday cotton suits to regal festive Anarkalis.',
-    features: [
-      'Straight cut, Punjabi Patiala, Pakistani & Palazzo suits',
-      'Flared floor-length Anarkalis & Angrakha styles',
-      'Neckline embroidery placement & custom slit lengths',
-      'Pant/trouser with pockets and elasticated/drawstring waist',
-    ],
-  },
-  {
-    id: 'bridal-lehenga',
-    name: 'Bridal Lehenga Choli & Gowns',
-    category: 'Bridal & Occasion',
-    startingPrice: '₹3,000',
-    turnaround: '5 - 8 Days',
-    popular: true,
-    description: 'Royal wedding wear tailoring with heavy kali panels, multi-tier can-can flairs, padded cholis, and custom latkans.',
-    features: [
-      'Multi-layer can-can attachment for voluminous flare',
-      'Padded choli with designer neck & back styling',
-      'Heavy border matching & waist belt attachment',
-      'Dupatta border finishing, piping & corner tassels',
-    ],
-  },
-  {
-    id: 'alterations-restyling',
-    name: 'Alterations & Saree Upcycling',
-    category: 'Alterations & Restyling',
-    startingPrice: '₹200',
-    turnaround: '2 - 3 Days',
-    description: 'Breathe new life into your wardrobe. Downsize, loosen, re-fit, or transform your vintage sarees into modern Anarkalis or lehengas.',
-    features: [
-      'Blouse, dress, suit & gown size adjustments',
-      'Sleeve attachment & armhole reshaping',
-      'Vintage saree conversion into designer kurtis/lehengas',
-      'Zipper repair, hook replacement & hem shortening',
-    ],
-  },
 ];
 
 export function ServicesSection() {

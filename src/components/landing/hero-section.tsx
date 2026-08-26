@@ -44,7 +44,7 @@ export function HeroSection() {
 
           {/* Subheading */}
           <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-200 leading-relaxed max-w-2xl font-light">
-            Bespoke designer blouses, intricate Aari/Maggam handwork, bridal lehengas, salwar suits, and precision alterations. Master women tailors with 20+ years of expertise deliver perfection to your home in <strong>3-5 days</strong>.
+            Bespoke designer blouses, intricate Aari & Maggam bridal handwork, and perfect-fit blouse tailoring. Master women tailors with 20+ years of expertise deliver perfection to your home in <strong>3-5 days</strong>.
           </p>
 
           {/* Key Value Propositions */}
