@@ -67,28 +67,30 @@ export function Header() {
   return (
     <>
       {/* Top Announcement Bar */}
-      <div className="bg-primary text-primary-foreground py-2 px-4 text-xs md:text-sm font-medium tracking-wide">
-        <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
-          <div className="flex items-center justify-center gap-2">
-            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-accent text-accent-foreground">
+      <div className="bg-primary text-primary-foreground py-2 px-3 sm:px-4 text-xs md:text-sm font-medium tracking-wide overflow-hidden w-full">
+        <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left max-w-full">
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 sm:gap-2 max-w-full">
+            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] sm:text-[11px] font-semibold bg-accent text-accent-foreground flex-shrink-0">
               Express Delivery
             </span>
-            <span>📍 Doorstep Ladies Tailoring in Bangalore • Fabric Pickup & 3-5 Days Delivery</span>
+            <span className="text-[11px] sm:text-xs md:text-sm">
+              📍 Doorstep Ladies Tailoring in Bangalore • 3-5 Days Delivery
+            </span>
           </div>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-3 sm:gap-4 text-[11px] sm:text-xs md:text-sm">
             <a
               href="https://wa.me/919590187030?text=Hello%20TailoredIn!%20I%20want%20to%20know%20more%20about%20your%20tailoring%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors flex items-center gap-1"
             >
-              <MessageCircle className="h-3.5 w-3.5" />
-              WhatsApp Us
+              <MessageCircle className="h-3.5 w-3.5 flex-shrink-0" />
+              <span>WhatsApp Us</span>
             </a>
             <span className="opacity-40">|</span>
             <a href="tel:+919590187030" className="hover:text-accent transition-colors font-bold flex items-center gap-1">
-              <Phone className="h-3.5 w-3.5" />
-              +91 95901 87030
+              <Phone className="h-3.5 w-3.5 flex-shrink-0" />
+              <span>+91 95901 87030</span>
             </a>
           </div>
         </div>

@@ -220,9 +220,9 @@ export default async function LocationPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <div className="flex min-h-screen flex-col bg-background selection:bg-primary/20 selection:text-primary">
+      <div className="flex min-h-screen flex-col bg-background selection:bg-primary/20 selection:text-primary overflow-x-hidden w-full max-w-full">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 overflow-x-hidden w-full max-w-full">
           {/* Localized Hero with local reviews & pickup badge */}
           <LocationHero location={location} />
 

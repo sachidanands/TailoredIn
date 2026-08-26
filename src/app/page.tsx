@@ -14,9 +14,9 @@ import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-background selection:bg-primary/20 selection:text-primary">
+    <div className="flex min-h-screen flex-col bg-background selection:bg-primary/20 selection:text-primary overflow-x-hidden w-full max-w-full">
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 overflow-x-hidden w-full max-w-full">
         <HeroSection />
         <AboutSection />
         <ServicesSection />

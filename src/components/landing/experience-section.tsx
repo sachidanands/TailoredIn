@@ -75,11 +75,11 @@ export function ExperienceSection() {
 
         {/* Gallery Carousel */}
         <ScrollReveal className="mb-16">
-          <div className="max-w-5xl mx-auto px-6">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 relative overflow-hidden">
             <Carousel opts={{ loop: true, align: 'start' }} className="w-full">
               <CarouselContent className="-ml-3 md:-ml-4">
                 {galleryImages.map((image) => (
-                  <CarouselItem key={image.id} className="pl-3 md:pl-4 sm:basis-1/2 lg:basis-1/3">
+                  <CarouselItem key={image.id} className="pl-3 md:pl-4 basis-[85%] sm:basis-1/2 lg:basis-1/3">
                     <Card className="overflow-hidden rounded-xl border shadow-md hover:shadow-xl transition-all duration-300 group">
                       <CardContent className="flex aspect-[3/4] items-center justify-center p-0 relative overflow-hidden bg-muted">
                         <Image
@@ -98,8 +98,8 @@ export function ExperienceSection() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="-left-3 md:-left-5 bg-card border shadow-md" />
-              <CarouselNext className="-right-3 md:-right-5 bg-card border shadow-md" />
+              <CarouselPrevious className="left-1 sm:-left-3 md:-left-5 bg-card/90 backdrop-blur-xs border shadow-md" />
+              <CarouselNext className="right-1 sm:-right-3 md:-right-5 bg-card/90 backdrop-blur-xs border shadow-md" />
             </Carousel>
           </div>
         </ScrollReveal>

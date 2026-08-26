@@ -1,8 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 import { serviceLocations } from '@/lib/locations';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.tailoredin.online'),
@@ -326,7 +333,6 @@ export default function RootLayout({
         <link rel="canonical" href="https://www.tailoredin.online" />
         <meta name="google-site-verification" content="5M8a6xWs3w2DKEKVlZLlC2Wh3tcWa9iOxgo1Qb80m94" />
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
