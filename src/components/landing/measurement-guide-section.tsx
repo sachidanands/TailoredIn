@@ -1,12 +1,10 @@
 "use client";
 
-import { useState } from 'react';
 import { ScrollReveal } from '@/components/scroll-reveal';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { BookingModal } from '@/components/landing/booking-modal';
-import { Ruler, CheckCircle2, HelpCircle, Sparkles, Shirt, Sparkle } from 'lucide-react';
+import { Ruler, CheckCircle2, AlertCircle, Shirt, Sparkle, Sparkles } from 'lucide-react';
 
 const blouseMeasurements = [
   {
@@ -41,30 +39,7 @@ const blouseMeasurements = [
   },
 ];
 
-const suitMeasurements = [
-  {
-    step: '1. Kurti Length & Chest',
-    instruction:
-      'Measure from highest point of shoulder over bust down to knee or calf length. Measure chest at fullest point.',
-    tip: 'Straight cut kurtis look flattering at knee or calf length.',
-  },
-  {
-    step: '2. Waist & Hip Circumference',
-    instruction:
-      'Measure your natural waist (narrowest part) and fullest part of hips for easy sitting comfort.',
-    tip: 'Leave 2-3 inches ease for loose comfort.',
-  },
-  {
-    step: '3. Salwar / Pant Length & Inseam',
-    instruction:
-      'Measure from your waist/navel down to the ankle bone. For cigarette pants or palazzos, specify desired bottom opening width.',
-    tip: 'Standard bottom opening is 6-7 inches for pants, 10-12 inches for palazzos.',
-  },
-];
-
 export function MeasurementGuideSection() {
-  const [activeTab, setActiveTab] = useState('blouse');
-
   return (
     <section id="measurements" className="py-16 md:py-24 bg-card border-t">
       <div className="container mx-auto px-4 md:px-6">
@@ -112,24 +87,33 @@ export function MeasurementGuideSection() {
           </Card>
 
           {/* Option B: Tailor Home Visit */}
-          <Card className="border-2 border-primary/20 bg-primary/5 shadow-md">
+          <Card className="border-2 border-muted bg-muted/20 shadow-sm relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-amber-500/90 text-white text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-bl-lg">
+              Temporarily Halted
+            </div>
             <CardHeader className="pb-3">
-              <CardTitle className="font-headline text-xl text-foreground flex items-center gap-2">
-                <Ruler className="h-5 w-5 text-primary" />
+              <CardTitle className="font-headline text-xl text-muted-foreground flex items-center gap-2">
+                <Ruler className="h-5 w-5 text-muted-foreground" />
                 Option 2: Home Measurement Visit
               </CardTitle>
               <CardDescription className="text-sm text-muted-foreground">
-                Prefer an expert to measure you at home? We&apos;ve got you covered.
+                In-person home visit by a tailoring specialist to take custom body measurements.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-2 text-sm text-foreground/80">
+            <CardContent className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-start gap-2">
-                <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                 <span>Our tailoring specialist assists you with body measurements during the doorstep consultation.</span>
               </div>
               <div className="flex items-start gap-2">
-                <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                 <span>Custom necklines, sleeve lengths, and ease preferences recorded on the spot.</span>
+              </div>
+
+              {/* Disclaimer Notice */}
+              <div className="mt-3.5 p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center gap-2 text-xs font-medium text-amber-800 dark:text-amber-300">
+                <AlertCircle className="h-4 w-4 text-amber-600 flex-shrink-0" />
+                <span><strong>Note:</strong> We currently have this service temporarily halted. Please provide a sample garment for doorstep pickup.</span>
               </div>
             </CardContent>
           </Card>
@@ -140,7 +124,7 @@ export function MeasurementGuideSection() {
           <Card className="shadow-lg border">
             <CardHeader className="border-b bg-muted/20 pb-4">
               <CardTitle className="text-xl font-headline flex items-center justify-between">
-                <span>Self-Measurement Step-by-Step</span>
+                <span>Self-Measurement Step-by-Step (Blouse Guide)</span>
               </CardTitle>
               <CardDescription className="text-xs text-muted-foreground">
                 Follow these instructions if taking measurements yourself using an inch tape.
@@ -148,42 +132,20 @@ export function MeasurementGuideSection() {
             </CardHeader>
 
             <CardContent className="p-6">
-              <Tabs defaultValue="blouse" onValueChange={setActiveTab}>
-                <TabsList className="grid w-full grid-cols-2 mb-6">
-                  <TabsTrigger value="blouse">Blouse Measurements</TabsTrigger>
-                  <TabsTrigger value="suit">Salwar & Kurti Measurements</TabsTrigger>
-                </TabsList>
-
-                <TabsContent value="blouse" className="space-y-4">
-                  {blouseMeasurements.map((item, idx) => (
-                    <div key={idx} className="p-4 rounded-lg bg-muted/40 border space-y-1.5">
-                      <div className="font-semibold text-sm text-primary flex items-center justify-between">
-                        <span>{item.step}</span>
-                      </div>
-                      <p className="text-sm text-muted-foreground leading-relaxed">{item.instruction}</p>
-                      <div className="text-xs font-medium text-accent flex items-center gap-1.5 pt-1">
-                        <Sparkle className="h-3 w-3" />
-                        <span>Pro Tip: {item.tip}</span>
-                      </div>
+              <div className="space-y-4">
+                {blouseMeasurements.map((item, idx) => (
+                  <div key={idx} className="p-4 rounded-lg bg-muted/40 border space-y-1.5">
+                    <div className="font-semibold text-sm text-primary flex items-center justify-between">
+                      <span>{item.step}</span>
                     </div>
-                  ))}
-                </TabsContent>
-
-                <TabsContent value="suit" className="space-y-4">
-                  {suitMeasurements.map((item, idx) => (
-                    <div key={idx} className="p-4 rounded-lg bg-muted/40 border space-y-1.5">
-                      <div className="font-semibold text-sm text-primary flex items-center justify-between">
-                        <span>{item.step}</span>
-                      </div>
-                      <p className="text-sm text-muted-foreground leading-relaxed">{item.instruction}</p>
-                      <div className="text-xs font-medium text-accent flex items-center gap-1.5 pt-1">
-                        <Sparkle className="h-3 w-3" />
-                        <span>Pro Tip: {item.tip}</span>
-                      </div>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{item.instruction}</p>
+                    <div className="text-xs font-medium text-accent flex items-center gap-1.5 pt-1">
+                      <Sparkle className="h-3 w-3" />
+                      <span>Pro Tip: {item.tip}</span>
                     </div>
-                  ))}
-                </TabsContent>
-              </Tabs>
+                  </div>
+                ))}
+              </div>
             </CardContent>
           </Card>
 

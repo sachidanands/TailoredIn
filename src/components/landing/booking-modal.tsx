@@ -169,7 +169,9 @@ export function BookingModal({ children, defaultService, defaultArea, className 
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="sample-garment">Giving Best-Fitting Sample Garment</SelectItem>
-                    <SelectItem value="home-visit">Take Measurements at Home</SelectItem>
+                    <SelectItem value="home-visit" disabled className="text-muted-foreground opacity-60">
+                      Home Measurement Visit (Temporarily Halted)
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>
